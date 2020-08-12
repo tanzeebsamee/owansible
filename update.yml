@@ -1,0 +1,5 @@
+---
+- name : Updating all packages
+  apt:
+    name: "*"
+    state: latest
